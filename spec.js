@@ -21,9 +21,7 @@ describe('requireNested', function() {
   });
 
   it('throws when no module is found', function() {
-    expect(function() {
-      requireNested('mocha', 'bleh');
-    }).not.to.throw();
+    expect(function() { requireNested('mocha', 'bleh'); }).to.throw(Error);
   });
 
 });
