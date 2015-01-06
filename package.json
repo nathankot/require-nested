@@ -1,0 +1,25 @@
+{
+  "name": "require-nested",
+  "version": "0.1.0",
+  "description": "Require modules inside modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathankot/require-nested.git"
+  },
+  "keywords": [
+    "require",
+    "nested",
+    "module",
+    "node_modules"
+  ],
+  "author": "Nathan Kot <me@nathankot.com> (http://nathankot.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathankot/require-nested/issues"
+  },
+  "homepage": "https://github.com/nathankot/require-nested"
+}
